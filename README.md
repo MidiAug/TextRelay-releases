@@ -2,7 +2,7 @@
 
 这是通用客户端的公开下载仓库，不包含配对凭据、服务端私密配置或工作项目资料。
 
-从 [Releases](https://github.com/MidiAug/TextRelay-releases/releases/latest) 下载普通 ZIP，解压后运行 `TextRelay.exe`。远程助手显示 6 位码，在已授权个人电脑的文本桥页面核对并批准即可。首次配置后后台自动同步纯文本，无需逐次点击。
+从 [Releases](https://github.com/MidiAug/TextRelay-releases/releases/latest) 下载普通 ZIP，解压后运行 `TextRelay.exe`。远程助手显示 6 位码，在已授权个人电脑的文本桥页面核对并批准即可。2.3起复制只进入待发，单击托盘发送当前新内容，右键打开状态；接收自动写入。客户端加密请求体上限10000字节，超限提示，不自动拆分。
 
 配对请求 5 分钟有效，六位码不能直接访问剪贴板。配置经过临时 RSA-OAEP-SHA256 和认证加密传递，设备凭证由当前 Windows 用户的 DPAPI 保护。程序提供托盘暂停、退出及连接状态。
 
